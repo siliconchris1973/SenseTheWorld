@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8300B69A1DBF9AA400049159 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300B6991DBF9AA400049159 /* CoreBluetooth.framework */; };
+		8300B69C1DBFA49300049159 /* sensorTag-main-visual.png in Resources */ = {isa = PBXBuildFile; fileRef = 8300B69B1DBFA49300049159 /* sensorTag-main-visual.png */; };
+		835D5CAD1DC0957000CDD917 /* chooseTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D5CAC1DC0957000CDD917 /* chooseTag.swift */; };
+		835D5CB01DC0964400CDD917 /* tagData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 835D5CAE1DC0964400CDD917 /* tagData.xcdatamodeld */; };
+		835D5CB21DC097F700CDD917 /* bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D5CB11DC097F700CDD917 /* bluetooth.swift */; };
+		835D5CB41DC09BBB00CDD917 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835D5CB31DC09BBB00CDD917 /* MapKit.framework */; };
+		83E2DA431DBF9A74000667DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2DA421DBF9A74000667DD /* AppDelegate.swift */; };
+		83E2DA451DBF9A74000667DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2DA441DBF9A74000667DD /* ViewController.swift */; };
+		83E2DA481DBF9A74000667DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E2DA461DBF9A74000667DD /* Main.storyboard */; };
+		83E2DA4B1DBF9A74000667DD /* SenseTheFurniture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83E2DA491DBF9A74000667DD /* SenseTheFurniture.xcdatamodeld */; };
+		83E2DA4D1DBF9A74000667DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E2DA4C1DBF9A74000667DD /* Assets.xcassets */; };
+		83E2DA501DBF9A74000667DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E2DA4E1DBF9A74000667DD /* LaunchScreen.storyboard */; };
+		83E2DA5B1DBF9A74000667DD /* SenseTheFurnitureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2DA5A1DBF9A74000667DD /* SenseTheFurnitureTests.swift */; };
+		83E2DA661DBF9A74000667DD /* SenseTheWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2DA651DBF9A74000667DD /* SenseTheWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E2DA571DBF9A74000667DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E2DA371DBF9A74000667DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E2DA3E1DBF9A74000667DD;
+			remoteInfo = SenseTheFurniture;
+		};
+		83E2DA621DBF9A74000667DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E2DA371DBF9A74000667DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E2DA3E1DBF9A74000667DD;
+			remoteInfo = SenseTheFurniture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8300B6991DBF9AA400049159 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8300B69B1DBFA49300049159 /* sensorTag-main-visual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sensorTag-main-visual.png"; path = "../../Ressources/Pictures/sensorTag-main-visual.png"; sourceTree = "<group>"; };
+		835D5CAC1DC0957000CDD917 /* chooseTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseTag.swift; sourceTree = "<group>"; };
+		835D5CAF1DC0964400CDD917 /* tagData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tagData.xcdatamodel; sourceTree = "<group>"; };
+		835D5CB11DC097F700CDD917 /* bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bluetooth.swift; sourceTree = "<group>"; };
+		835D5CB31DC09BBB00CDD917 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83E2DA3F1DBF9A74000667DD /* SenseTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2DA421DBF9A74000667DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83E2DA441DBF9A74000667DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83E2DA471DBF9A74000667DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83E2DA4A1DBF9A74000667DD /* SenseTheFurniture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SenseTheFurniture.xcdatamodel; sourceTree = "<group>"; };
+		83E2DA4C1DBF9A74000667DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E2DA4F1DBF9A74000667DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83E2DA511DBF9A74000667DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E2DA561DBF9A74000667DD /* SenseTheWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseTheWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2DA5A1DBF9A74000667DD /* SenseTheFurnitureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseTheFurnitureTests.swift; sourceTree = "<group>"; };
+		83E2DA5C1DBF9A74000667DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E2DA611DBF9A74000667DD /* SenseTheWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseTheWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2DA651DBF9A74000667DD /* SenseTheWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseTheWorldUITests.swift; sourceTree = "<group>"; };
+		83E2DA671DBF9A74000667DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E2DA3C1DBF9A74000667DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835D5CB41DC09BBB00CDD917 /* MapKit.framework in Frameworks */,
+				8300B69A1DBF9AA400049159 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA531DBF9A74000667DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA5E1DBF9A74000667DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8300B6981DBF9AA400049159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835D5CB31DC09BBB00CDD917 /* MapKit.framework */,
+				8300B6991DBF9AA400049159 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83E2DA361DBF9A74000667DD = {
+			isa = PBXGroup;
+			children = (
+				83E2DA411DBF9A74000667DD /* SenseTheWorld */,
+				83E2DA591DBF9A74000667DD /* SenseTheWorldTests */,
+				83E2DA641DBF9A74000667DD /* SenseTheWorldUITests */,
+				83E2DA401DBF9A74000667DD /* Products */,
+				8300B6981DBF9AA400049159 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83E2DA401DBF9A74000667DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E2DA3F1DBF9A74000667DD /* SenseTheWorld.app */,
+				83E2DA561DBF9A74000667DD /* SenseTheWorldTests.xctest */,
+				83E2DA611DBF9A74000667DD /* SenseTheWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E2DA411DBF9A74000667DD /* SenseTheWorld */ = {
+			isa = PBXGroup;
+			children = (
+				83E2DA421DBF9A74000667DD /* AppDelegate.swift */,
+				83E2DA441DBF9A74000667DD /* ViewController.swift */,
+				83E2DA461DBF9A74000667DD /* Main.storyboard */,
+				83E2DA4C1DBF9A74000667DD /* Assets.xcassets */,
+				8300B69B1DBFA49300049159 /* sensorTag-main-visual.png */,
+				83E2DA4E1DBF9A74000667DD /* LaunchScreen.storyboard */,
+				83E2DA511DBF9A74000667DD /* Info.plist */,
+				83E2DA491DBF9A74000667DD /* SenseTheFurniture.xcdatamodeld */,
+				835D5CAC1DC0957000CDD917 /* chooseTag.swift */,
+				835D5CAE1DC0964400CDD917 /* tagData.xcdatamodeld */,
+				835D5CB11DC097F700CDD917 /* bluetooth.swift */,
+			);
+			name = SenseTheWorld;
+			path = SenseTheFurniture;
+			sourceTree = "<group>";
+		};
+		83E2DA591DBF9A74000667DD /* SenseTheWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				83E2DA5A1DBF9A74000667DD /* SenseTheFurnitureTests.swift */,
+				83E2DA5C1DBF9A74000667DD /* Info.plist */,
+			);
+			name = SenseTheWorldTests;
+			path = SenseTheFurnitureTests;
+			sourceTree = "<group>";
+		};
+		83E2DA641DBF9A74000667DD /* SenseTheWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83E2DA651DBF9A74000667DD /* SenseTheWorldUITests.swift */,
+				83E2DA671DBF9A74000667DD /* Info.plist */,
+			);
+			name = SenseTheWorldUITests;
+			path = SenseTheFurnitureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E2DA3E1DBF9A74000667DD /* SenseTheWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E2DA6A1DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorld" */;
+			buildPhases = (
+				83E2DA3B1DBF9A74000667DD /* Sources */,
+				83E2DA3C1DBF9A74000667DD /* Frameworks */,
+				83E2DA3D1DBF9A74000667DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenseTheWorld;
+			productName = SenseTheFurniture;
+			productReference = 83E2DA3F1DBF9A74000667DD /* SenseTheWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83E2DA551DBF9A74000667DD /* SenseTheWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E2DA6D1DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorldTests" */;
+			buildPhases = (
+				83E2DA521DBF9A74000667DD /* Sources */,
+				83E2DA531DBF9A74000667DD /* Frameworks */,
+				83E2DA541DBF9A74000667DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E2DA581DBF9A74000667DD /* PBXTargetDependency */,
+			);
+			name = SenseTheWorldTests;
+			productName = SenseTheFurnitureTests;
+			productReference = 83E2DA561DBF9A74000667DD /* SenseTheWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83E2DA601DBF9A74000667DD /* SenseTheWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E2DA701DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorldUITests" */;
+			buildPhases = (
+				83E2DA5D1DBF9A74000667DD /* Sources */,
+				83E2DA5E1DBF9A74000667DD /* Frameworks */,
+				83E2DA5F1DBF9A74000667DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E2DA631DBF9A74000667DD /* PBXTargetDependency */,
+			);
+			name = SenseTheWorldUITests;
+			productName = SenseTheFurnitureUITests;
+			productReference = 83E2DA611DBF9A74000667DD /* SenseTheWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E2DA371DBF9A74000667DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Christian Guenther";
+				TargetAttributes = {
+					83E2DA3E1DBF9A74000667DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22Q22A92VW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					83E2DA551DBF9A74000667DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22Q22A92VW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83E2DA3E1DBF9A74000667DD;
+					};
+					83E2DA601DBF9A74000667DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22Q22A92VW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83E2DA3E1DBF9A74000667DD;
+					};
+				};
+			};
+			buildConfigurationList = 83E2DA3A1DBF9A74000667DD /* Build configuration list for PBXProject "SenseTheWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E2DA361DBF9A74000667DD;
+			productRefGroup = 83E2DA401DBF9A74000667DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E2DA3E1DBF9A74000667DD /* SenseTheWorld */,
+				83E2DA551DBF9A74000667DD /* SenseTheWorldTests */,
+				83E2DA601DBF9A74000667DD /* SenseTheWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E2DA3D1DBF9A74000667DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2DA501DBF9A74000667DD /* LaunchScreen.storyboard in Resources */,
+				8300B69C1DBFA49300049159 /* sensorTag-main-visual.png in Resources */,
+				83E2DA4D1DBF9A74000667DD /* Assets.xcassets in Resources */,
+				83E2DA481DBF9A74000667DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA541DBF9A74000667DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA5F1DBF9A74000667DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E2DA3B1DBF9A74000667DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2DA451DBF9A74000667DD /* ViewController.swift in Sources */,
+				83E2DA431DBF9A74000667DD /* AppDelegate.swift in Sources */,
+				835D5CB21DC097F700CDD917 /* bluetooth.swift in Sources */,
+				83E2DA4B1DBF9A74000667DD /* SenseTheFurniture.xcdatamodeld in Sources */,
+				835D5CB01DC0964400CDD917 /* tagData.xcdatamodeld in Sources */,
+				835D5CAD1DC0957000CDD917 /* chooseTag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA521DBF9A74000667DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2DA5B1DBF9A74000667DD /* SenseTheFurnitureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E2DA5D1DBF9A74000667DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2DA661DBF9A74000667DD /* SenseTheWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E2DA581DBF9A74000667DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E2DA3E1DBF9A74000667DD /* SenseTheWorld */;
+			targetProxy = 83E2DA571DBF9A74000667DD /* PBXContainerItemProxy */;
+		};
+		83E2DA631DBF9A74000667DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E2DA3E1DBF9A74000667DD /* SenseTheWorld */;
+			targetProxy = 83E2DA621DBF9A74000667DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83E2DA461DBF9A74000667DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E2DA471DBF9A74000667DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83E2DA4E1DBF9A74000667DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E2DA4F1DBF9A74000667DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83E2DA681DBF9A74000667DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E2DA691DBF9A74000667DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E2DA6B1DBF9A74000667DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurniture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurniture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		83E2DA6C1DBF9A74000667DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurniture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurniture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		83E2DA6E1DBF9A74000667DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurnitureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurnitureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenseTheWorld.app/SenseTheWorld";
+			};
+			name = Debug;
+		};
+		83E2DA6F1DBF9A74000667DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurnitureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurnitureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenseTheWorld.app/SenseTheWorld";
+			};
+			name = Release;
+		};
+		83E2DA711DBF9A74000667DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurnitureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurnitureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SenseTheFurniture;
+			};
+			name = Debug;
+		};
+		83E2DA721DBF9A74000667DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22Q22A92VW;
+				INFOPLIST_FILE = SenseTheFurnitureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossing-MINDs.SenseTheFurnitureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SenseTheFurniture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E2DA3A1DBF9A74000667DD /* Build configuration list for PBXProject "SenseTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E2DA681DBF9A74000667DD /* Debug */,
+				83E2DA691DBF9A74000667DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E2DA6A1DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E2DA6B1DBF9A74000667DD /* Debug */,
+				83E2DA6C1DBF9A74000667DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E2DA6D1DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E2DA6E1DBF9A74000667DD /* Debug */,
+				83E2DA6F1DBF9A74000667DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E2DA701DBF9A74000667DD /* Build configuration list for PBXNativeTarget "SenseTheWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E2DA711DBF9A74000667DD /* Debug */,
+				83E2DA721DBF9A74000667DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		835D5CAE1DC0964400CDD917 /* tagData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				835D5CAF1DC0964400CDD917 /* tagData.xcdatamodel */,
+			);
+			currentVersion = 835D5CAF1DC0964400CDD917 /* tagData.xcdatamodel */;
+			path = tagData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		83E2DA491DBF9A74000667DD /* SenseTheFurniture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83E2DA4A1DBF9A74000667DD /* SenseTheFurniture.xcdatamodel */,
+			);
+			currentVersion = 83E2DA4A1DBF9A74000667DD /* SenseTheFurniture.xcdatamodel */;
+			path = SenseTheFurniture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83E2DA371DBF9A74000667DD /* Project object */;
+}
